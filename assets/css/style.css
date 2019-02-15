@@ -1,15 +1,15 @@
 h1 {
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5;
     margin-right: 10px;
     margin-left: 10px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 200px;
+    color: white; */
+    font-family: serif;
+    /* width: 200px; */
     text-align: center;
-    font-size: 28px;
+    /* font-size: 28px;
     padding: 25px;
     display: inline-block;
-    margin: 0;
+    margin: 0; */
 }
 
 .links {
@@ -37,14 +37,26 @@ a:active {
 }
 
 h2 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif; */
 
 }
 
+h6 {
+    text-align: center;
+}
+
 img {
-    float: left;
+    /* float: left; */
     padding: 20px;
+    align: center;
+    border:10px solid black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bio {
@@ -55,8 +67,8 @@ img {
 
 
 body {
-    width: 960px;
-    margin: 0 auto 20px;
+    /* width: 960px;
+    margin: 0 auto 20px; */
 }
 
 .container {
@@ -66,6 +78,9 @@ body {
     padding: 20px;
     font-size: 18px;
     color: #777777;
+    /* border-style: solid;
+    border-color: black;
+    border: 2px; */
 }
 
 
@@ -155,4 +170,13 @@ hr {
 html {
     position: relative;
     min-height: 100%;
+}
+
+.col {
+    text-align: center;
+}
+
+.border {
+    margin: 10px;
+    width: 25vw;
 }
